@@ -1,56 +1,27 @@
 !.gitignore
-# Ignorē VISU pēc noklusējuma
+!.gitignore
 /*
 
-# Ļauj public_html sakni
-!public_html/
+# Atļaujam tikai mobishop-ai saknē
+!mobishop-ai/
+!mobishop-ai/**
 
-# Ignorē visu public_html iekšā...
-public_html/*
+# mobishop-ai iekšienē ignorē ģenerēto/slepeno
+mobishop-ai/node_modules/
+mobishop-ai/.env
+mobishop-ai/.env.*
+mobishop-ai/*.log
+mobishop-ai/dist/
+mobishop-ai/build/
+mobishop-ai/.cache/
+mobishop-ai/__pycache__/
+mobishop-ai/.venv/
+mobishop-ai/venv/
+mobishop-ai/vendor/
+mobishop-ai/*.sqlite3
+mobishop-ai/.DS_Store
 
-# ...bet ĻAUJ wp-content
-!public_html/wp-content/
-
-# Ignorē visu wp-content iekšā...
-public_html/wp-content/*
-
-# ĻAUJ mu-plugins
-!public_html/wp-content/mu-plugins/
-
-# Ignorē visu mu-plugins...
-public_html/wp-content/mu-plugins/*
-
-# ...bet ĻAUJ tikai mobishop-ai (mūsu MU-plugins)
-!public_html/wp-content/mu-plugins/mobishop-ai/**
-# (ja MU-plugins ir viens fails, lieto:
-# !public_html/wp-content/mu-plugins/mobishop-ai.php)
-
-# ĻAUJ uploads
-!public_html/wp-content/uploads/
-
-# Ignorē visu uploads...
-public_html/wp-content/uploads/*
-
-# ...bet ĻAUJ tikai uploads/mobishop-ai (ja tur ir čatbota faili/konfig)
-!public_html/wp-content/uploads/mobishop-ai/**
-
-# ĻAUJ AI front-end widgetu (ja tāds ir)
-!public_html/ai-widget/**
-
-# ĻAUJ Flask/WSGI mapi (ja izmanto hostēšanai zem public_html/ai)
-!public_html/ai/**
-
-# (Ja ir ārēja saknes mape ar AI skriptiem, atkomentē)
-# !mobishop-ai/**
-
-# Vispārīgie izņēmumi
-*.env
-.env.*
-.vscode/
-.idea/
-node_modules/
-__pycache__/
-*.log
-.DS_Store
-build/
-dist/
+# Mobishop AI – ģenerētais/nejāversē
+mobishop-ai/tmp/
+mobishop-ai/*.bak*
+mobishop-ai/*.index

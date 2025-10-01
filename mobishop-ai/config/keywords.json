@@ -1,0 +1,6 @@
+[
+  { "name": "phone_case", "match": ["vāciņ", "vaciņ", "vāk", "case", "cover", "phone case", "silicone case"] },
+  { "name": "wok",        "match": ["wok", "vok", "vokpanna", "woks"] },
+  { "name": "headphones", "match": ["austiņ", "austiņas", "headphone", "earbud"] },
+  { "name": "keyboard",   "match": ["klaviatūr", "keyboard"] }
+]

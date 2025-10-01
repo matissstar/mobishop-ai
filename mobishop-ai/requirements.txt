@@ -1,0 +1,5 @@
+flask==3.0.3
+flask-cors==4.0.0
+annoy==1.17.3
+requests==2.32.3
+openai==1.47.0

@@ -1,0 +1,9 @@
+{
+  "annoy_top_k": 20,
+  "woo_fallback": true,
+  "annoy_top_k": 20,
+  "woo_fallback": true,
+  "random_fallback": true,
+  "random_fallback_count": 6,
+  "title_min_overlap": 1
+}

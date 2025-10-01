@@ -1,0 +1,14 @@
+{
+  "chat_model": "gpt-4o-mini",
+  "embed_model": "text-embedding-3-large",
+  "cors": [
+    "https://mobishop.lv",
+    "https://www.mobishop.lv"
+  ],
+  "embed_dim": 3072,
+  "question_words": ["kāpēc","kapec","kas","kā","kur","kad","cik","vai","kāda","kāds","kamdēļ","kādēļ"],
+  "similar_cutoff": 0.72,
+  "min_title_token_len": 3,
+  "chat_quick_replies": ["Atrast preces","Jautājums par piegādi","Jautājums par cenu"]
+}
+
